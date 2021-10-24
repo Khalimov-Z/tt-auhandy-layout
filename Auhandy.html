@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AUHANDY</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<style type="text/css">
+		.li-social{
+			padding-left: 15px;
+		}
+		.li-info{
+			padding-left: 30px;
+			font-weight: bold;
+		}
+		.header-top{
+			 background: #f2f2f2;
+			 padding: 15px 0;
+			 font-size: 14px;
+			 max-width: 1920px;
+			 margin: auto;
+			 color: #666666;
+		}
+		.header-main{
+			padding: 32px 0;
+		}
+		.box{
+			display: flex;
+		}
+		.title{
+			font-size: 20px;
+			font-weight: bold;
+			
+		}
+		.text{
+			color: #666666;
+			font-size: 14px;
+		}
+		.parent-block{
+			padding-left: 10px;
+			
+		}
+		.section-1{
+	        background-size: cover;
+	        height: 670PX;
+	        max-width: 1920px;
+			margin: auto;
+			background: rgba(29,33,36,0.87) url('Без-имени-3.jpg') no-repeat;
+			background-blend-mode: multiply;
+		}
+		.title-section-1{
+			font-weight: bold;
+			font-size: 34px;
+			color: #ffffff;
+			margin-bottom: 25px;
+		}
+		.text-section-1{
+			color: #cccccc;
+		}
+		.parent-block-section-1{
+			display: flex;
+			margin-top: 40px;
+		}
+		.btn1-section-1{
+			width: 170px;
+			height: 50px;
+			padding: 0 10px;
+			margin-right: 15px;
+			color: #ffffff;
+			background-color: #ffb619;
+			font-weight: bold;
+			border: solid 1px #ffb619;
+		}
+		.btn2-section-1{
+			width: 170px;
+			height: 50px;
+			padding: 0 10px;
+			color: #ffffff;
+			background-color: rgba(255,255,255,0);
+			font-weight: bold;
+			border: solid 1px white;
+		}
+		.logo-section-1{
+			margin-top: 170px;
+			margin-left: 90px;
+		}
+		.box-section-1{
+			margin-top: 190px;
+		}
+		.section-2{
+			background-size: cover;
+	        height: 160PX;
+	        max-width: 1920px;
+			margin: auto;
+			background: rgba(29,33,36,0.87) url('Без-имени-5.jpg') no-repeat;
+		}
+		.title-section-2{
+			font-size: 22px;
+			color: #3f3f3f;
+			font-weight: bold;
+			padding: 70px 0;
+		}
+		.input-section-2{
+			display: flex;
+			width: 200px;
+			height: 50px;
+			color: white;
+			background-color: #ffb619;
+			align-items: center;
+			padding: 0 20px;
+		}
+		.phone-section-2{
+			color: white;
+			padding-right: 10px;
+			font-size: 20px;
+		}
+		.number-phone-section-2{
+			color: white;
+			font-size: 18px;
+		}
+	
+		.line-section-3{
+			width: 60px;
+			height: 3px;
+			background-color: #1c3e9b;
+			margin: 20px 0;
+		}
+		.title2-section-3{
+			font-size: 32px;
+			font-weight: bold;
+		}
+		.text-section-3{
+			color: #858585;
+			margin-bottom: 45px;
+		}
+		.parent-block-section-3{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 35px;
+		}
+		.box-section-3{
+			margin-left: 30px;
+			margin-top: 120px;
+		}
+		.img-section-3{
+			margin-top: 90px;
+			margin-bottom: 115px;
+		}
+		.item-2-section-3{
+			margin-right: 10px;
+		}
+		.section-4{
+			background-size: cover;
+	        height: 670PX;
+	        max-width: 1920px;
+			margin: auto;
+			background: url('fon-tekstura-art-detskaya-mishka-6436.png') no-repeat;
+		}
+		.title-section-4{
+			font-weight: bold;
+			font-size: 34px;
+			color: #ffffff;
+			padding-top: 80px;
+			padding-bottom: 15px;
+			text-align: center;
+		}
+		.line-section-4{
+			width: 60px;
+			height: 3px;
+			background-color: #ffffff;
+			margin-bottom: 60px;
+		}
+		.item-section-4{
+			padding: 45px 20px;
+			border: solid 4px #013e99;
+			text-align: center;
+			height: 260px;
+			margin-bottom: 60px;
+			overflow: hidden;
+		}
+		.item-section-4:hover{
+			background-color: #013e99;
+			cursor: pointer;
+		}
+		.item-title-section-4{
+			font-size: 26px;
+			font-weight: bold;
+			color: #ffffff;
+			padding: 20px 0 10px 0; 
+		}
+		.item3-title-section-4{
+			font-size: 26px;
+			font-weight: bold;
+			color: #ffffff;
+			padding: 25px 0 10px 0; 
+		}
+		.item4-title-section-4{
+			font-size: 26px;
+			font-weight: bold;
+			color: #ffffff;
+			padding: 28px 0 10px 0; 
+		}
+		.item-text-section-4{
+			color: #cccccc;
+		}
+		.input-section-4{
+			width: 200px;
+			height: 50px;
+			color: white;
+			font-weight: bold;
+			background-color: #ffb619;
+			text-align: center;
+			line-height: 50px;
+			padding: 0 20px;
+			margin: auto;
+		}
+		.title-section-5{
+			font-weight: bold;
+			font-size: 34px;
+			padding-top: 80px;
+			padding-bottom: 15px;
+			text-align: center;
+		}
+		.line-section-5{
+			width: 60px;
+			height: 3px;
+			background-color: #1c3e9b;
+			margin-bottom: 40px;
+		}
+		.info-section-5{
+			margin-bottom: 35px;
+		}
+		.box-section-5{
+			margin-bottom: 60px;
+		}
+		.li-info-section-5{
+			padding-left: 25px;
+			font-weight: bold;
+		}
+		.li-info-section-5:hover{
+			color: #ffbb28;
+			cursor: pointer;
+		}
+		.item-section-5{
+			position: relative;
+			display: inline-block;
+		}
+		.item-section-5::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+            background-color: rgba(0,0,0,,0.5);
+            transition: all .3s ease;
+		}
+		
+		.item-section-5:hover::before {
+			cursor: url(lupa.png), progress;
+			background-color: rgba(1,62,153,0.8);
+		}
+		.item-section-5 .hover-text{
+			position: absolute;
+			top: 33%;
+			width: 100%;
+			text-align: center;
+			visibility: hidden;
+		}
+		.item-section-5:hover .hover-text{
+			visibility: visible;
+		}
+		.hover-text{
+			color: #ffbb28;
+			font-size: 22px;
+			font-weight: bold;
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+		}
+		.hover-text a{
+			color: #cccccc;
+			cursor: url(lupa.png), progress;
+			font-size: 16px;
+		}
+		.input-section-5{
+			width: 200px;
+			height: 50px;
+			color: white;
+			font-weight: bold;
+			background-color: #ffb619;
+			text-align: center;
+			line-height: 50px;
+			padding: 0 20px;
+			margin: auto;
+			margin-bottom: 100px;
+		}
+		.section-6{
+			background-size: cover;
+	        height: 580PX;
+	        max-width: 1920px;
+			margin: auto;
+			background: url('fon-tekstura-art-detskaya-mishka-6436.png') no-repeat;
+		}
+		.title-section-6{
+			font-size: 32px;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		.input-section-6{
+			display: flex;
+			width: 260px;
+			height: 50px;
+			color: white;
+			background-color: #ffb619;
+			align-items: center;
+			padding: 0 20px;
+			margin-top: 40px;
+		}
+		.phone-section-6{
+			color: white;
+			padding-right: 10px;
+			font-size: 26px;
+		}
+		.number-phone-section-6{
+			color: white;
+			font-size: 26px;
+			font-weight: bold;
+		}
+		.parent-block-section-6{
+			margin-top: 180px;
+		}
+		.section-7{
+			background-size: cover;
+	        height: 700PX;
+	        max-width: 1920px;
+			margin: auto;
+			background: url('BG.png') no-repeat;
+		}
+		.title-section-7{
+			font-weight: bold;
+			font-size: 34px;
+			padding-top: 75px;
+			padding-bottom: 15px;
+		}
+		.line-section-7{
+			width: 60px;
+			height: 3px;
+			background-color: #1c3e9b;
+			margin: 0;
+			margin-bottom: 50px;
+			
+		}
+		.input1-section-7{
+			padding: 25px 20px;
+			margin-bottom: 10px;
+			font-size: 18px;
+		}
+		.texterea-section-7{
+			margin-bottom: 40px;
+			font-size: 18px;
+		}
+		textarea{
+			resize: none;
+		}
+		.btn2-section-7{
+			width: 140px;
+			height: 50px;
+			color: white;
+			font-weight: bold;
+			background-color: #ffb619;
+			text-align: center;
+			line-height: 50px;
+			padding: 0 20px;
+		}
+		.item-section-8{
+			padding: 50px 0;
+			transition: 0.3;
+		}
+		.item-section-8:hover {
+			filter: brightness(0%);
+			cursor: pointer;
+		}
+		.footer-top{
+			background-color: #1a1a1a;
+			padding-bottom: 60px; 
+		}
+		.title-footer-top{
+			font-weight: bold;
+			font-size: 22px;
+			color: #cccccc;
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+		.text-footer-top{
+			color: #999999;
+			margin-left: 10px; 
+		}
+		.info-footer-top{
+			display: flex;
+			align-items: center;
+			padding-bottom: 10px;
+		}
+		.phone-footer-top{
+			display: flex;
+			align-items: center;
+			padding-bottom: 10px;
+		}
+		.number-phone-footer-top{
+			color: #cccccc;
+			margin-left: 10px;
+		}
+		.service-footer-top{
+			display: flex;
+			align-items: center;
+			padding-bottom: 15px;
+		}
+		.img-footer-top{
+			padding-top: 60px;
+		}
+		.parent-block-footer-top{
+			padding-top: 135px;
+		}
+		.footer-bottom{
+			background-color: #0d0d0d;
+			padding: 20px 0;
+		}
+		.link-footer-bottom{
+			font-weight: bold;
+			color: #ffb619; 
+		}
+		.link-footer-bottom:hover{
+			color: #ffb629; 
+		}
+		.title-footer-bottom{
+			color: #999999;
+		}
+
+		.form-popup {
+		    display: none;
+		    position:absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -180px;
+            margin-top: -200px;
+		    border: 3px solid #f1f1f1;
+		    z-index: 9;
+		  
+		}
+		.deactivate{
+			display: none;
+            position: fixed;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    background-color: #000000d9;
+        }
+
+		.form-container {
+		    max-width: 350px;
+		    padding: 20px;
+		    background-color: white;
+		  
+		}
+
+		.form-container .input-text {
+		    width: 100%;
+		    padding: 15px;
+		    margin: 5px 0 22px 0;
+		    border: solid 1px white;
+		    background: #f1f1f1;
+		}
+
+		.form-container .input-text:focus{
+		    background-color: #ddd;
+		    outline: none;
+		}
+
+		.form-container .btn1-popup {
+		    background-color: #ffb619;
+		    color: white;
+		    padding: 16px 20px;
+		    border: none;
+		    cursor: pointer;
+		    width: 100%;
+		    margin-bottom:10px;
+		    opacity: 0.8;
+		    font-size: 15px;
+		    font-weight: bold;
+		}
+
+		.form-container .cancel {
+		    background-color: #ffb619;
+		}
+
+		.form-container .btn1-popup:hover, .btn1-section-2:hover {
+		    opacity: 1;
+		}	
+		input:invalid:not(:placeholder-shown) {border-color: red;}
+		input:valid:not(:placeholder-shown) {border-color: green;}	
+
+	</style>
+</head>
+<body>
+ <header>
+ 	<div class="header-top">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+					We make your home more quality.
+				</div>
+				<div class="col-auto">
+					<nav>
+						<ul class="nav justify-content-end">
+							<li class="li-social"><i class="fab fa-facebook-f"></i></li>
+							<li class="li-social"><i class="fab fa-twitter"></i></li>
+							<li class="li-social"><i class="fab fa-google-plus-g"></i></li>
+							<li class="li-social"><i class="fab fa-behance"></i></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-main">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="col-4">
+					<div class="box">
+					<div><img src="Logo.png" alt="photo"></div>
+				<div class="parent-block">
+					<span class="title">AUHANDY</span>
+					<div class="text">We repair everything.</div>
+				</div>
+					</div>
+				</div>
+				<div class="col-auto col-md-6 col-lg-8">
+						<nav>
+						<ul class="nav justify-content-end">
+							<li class="li-info">HOME</li>
+							<li class="li-info">SERVICES</li>
+							<li class="li-info">PROJECTS</li>
+							<li class="li-info">PAGES</li>
+							<li class="li-info">BLOG</li>
+							<li class="li-info">CONTACT</li>
+							<li class="li-info"><i class="fas fa-search"></i></li>
+						</ul>
+					</nav>	
+				</div>
+			</div>
+		</div>
+	</div>
+ </header>
+ <section class="section-1">
+ 	<div class="container">
+ 		<div class="row justify-content-between">
+ 			<div class=" col-md-5 col-lg-5 ">
+ 				<img class="logo-section-1 img-fluid" src="Slider02.png" alt="photo">
+ 			</div>
+ 			<div class=" col-md-5 col-lg-6">
+ 			  <div class="box-section-1">
+ 				<div class="title-section-1">Expert Handyman & Remodeling</div>
+ 				<div class="text-section-1">Integer consectetur dapibus nisi, et faucibus augue lobortis ut. Proin quis porttitor sem. Donec ultrices felis quis tincidunt </div>
+ 				<div class="parent-block-section-1">
+ 					<button onclick="openForm()" class="btn1-section-1">LEARN MORE</button>
+ 					<button class="btn2-section-1">GET A QUOTE</button>
+ 				</div>
+ 			  </div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <section class="section-2">
+ 	<div class="container">
+ 		<div class="row justify-content-between align-items-center">
+ 			<div class="col-6">
+ 				<div class="title-section-2">We have 13 years of experience in Auhandy.</div>
+ 			</div>
+ 			<div class="col-auto">
+ 				<div class="input-section-2">
+ 					<div class="phone-section-2"><i class="fas fa-mobile-alt"></i></div>
+ 					<div class="number-phone-section-2">+1 2345678967</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	</section>
+ 		<section class="section-3"> 
+ 			<div class="container">
+ 				<div class="row">
+ 			<div class="col-5">
+ 				<img class="img-section-3 img-fluid" src="Группа 1.png" alt="photo">
+ 			</div>
+ 			<div class="col-7">
+ 				<div class="box-section-3">
+	 				<div class="title2-section-3">WHY CHOOSE US</div>
+	 				<hr class="line-section-3">
+	 				<div class="text-section-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 				quis nostrud exercitation.</div>
+	 				<div class="parent-block-section-3">
+	 				<div class=""><img class="img-fluid" src="Item 1.png" alt="photo"></div>
+	 			    <div class="item-2-section-3">
+	 			    	<img class="img-fluid" src="Item 2.png" alt="photo">
+	 			    </div>
+	 				</div>
+	 				<div class="parent-block-section-3">
+	 				<div class=""><img class="img-fluid"  src="Item 3.png" alt="photo"></div>
+	 			    <div class=""><img class="img-fluid"  src="Item 4.png" alt="photo"></div>
+	 				</div>
+ 				</div>
+ 			</div>
+ 		</div> 
+ 	</div>
+ 	</section>
+ 	
+ </section>
+ <section class="section-4">
+ 	<div class="container">
+ 		<div class="title-section-4">OUR SERVICES</div>
+ 		<hr class="line-section-4">
+ 		<div class="row">
+ 			<div class="col-3">
+ 				<div class="item-section-4">
+ 					<div class="img-section-4"><img src="gears.png" alt="photo"></div>
+ 					<div class="item-title-section-4">Engine Repairs</div>
+ 					<div class="item-text-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="item-section-4">
+ 					<div class="img-section-4"><img src="light-bolt.png" alt="photo"></div>
+ 					<div class="item-title-section-4">Electrical</div>
+ 					<div class="item-text-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="item-section-4">
+ 					<div class="img-section-4"><img src="pipe.png" alt="photo"></div>
+ 					<div class="item3-title-section-4">Plumbing</div>
+ 					<div class="item-text-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3">
+ 				<div class="item-section-4">
+ 					<div class="img-section-4"><img src="wrench.png" alt="photo"></div>
+ 					<div class="item4-title-section-4">Repair House</div>
+ 					<div class="item-text-section-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="input-section-4">
+ 			VIEW ALL SERVICES 		
+ 		</div>
+ 	</div>
+ </section>
+ <section class="section-5">
+ 	<div class="container">
+ 		<div class="title-section-5">OUR PROJECTS</div>
+ 		<hr class="line-section-5">
+ 			<div class="info-section-5">
+						<nav>
+						<ul class="nav justify-content-center">
+							<li class="li-info-section-5">ALL</li>
+							<li class="li-info-section-5">ENGINE REPAIR</li>
+							<li class="li-info-section-5">ELECTRICAL</li>
+							<li class="li-info-section-5">PLUMBING</li>
+							<li class="li-info-section-5">REPAIR HOUSE</li>
+							<li class="li-info-section-5">WALL PAINT</li>
+						</ul>
+					</nav>	
+				</div>
+	<div class="box-section-5">
+		<div class="row no-gutters">
+ 			<div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="13400996-router-connection-to-rj45-connector-blue.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="unnamed.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		     <div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="Image Holder.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="Image Holder.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="13400996-router-connection-to-rj45-connector-blue.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-4">
+ 				<div class="item-section-5">
+ 					<img class="img-fluid" src="unnamed.png" alt="photo">
+ 					<div class="hover-text">
+ 						Pellentesque finibus maximus.
+ 						<div>
+ 							<a href="#">Repair House</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>	
+	</div>		
+ 		<div class="input-section-5">
+ 			 ALL PROJECTS 		
+ 		</div>
+ 	</div>
+ </section>
+ <section class="section-6">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-6">
+ 				<div class="parent-block-section-6">
+ 					<div class="title-section-6">YOU HAVE SOME PROBLEMS IN HOOSING?</div>
+ 					<div class="input-section-6">
+ 						<div class="phone-section-6"><i class="fas fa-mobile-alt"></i></div>
+ 					    <div class="number-phone-section-6">+1 2345678967</div>
+ 					</div>
+ 				</div>	
+ 			</div>
+ 			
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <section class="section-7"> 
+ 			<div class="container">
+ 				<div class="row justify-content-between no-gutters">
+ 			<div class="col-5">
+ 				<div class="title-section-7">OUR LOCATION</div>
+ 				<hr class="line-section-7">
+ 				<img class="img-fluid" src="Map Pin.png" alt="photo">
+ 			</div>
+ 			<div class="col-6">
+ 				<div class="box-section-7">
+	 				<div class="title-section-7">GET A QUOTE</div>
+	 				<hr class="line-section-7">
+	 					<form>
+  					<div class="form-row justify-content-center">
+  						<div class="col-6">
+  							<input class="form-control rounded-0 input1-section-7" type="text" placeholder="Your Name">
+  						</div>
+  						<div class="col-6">
+  							<input class="form-control rounded-0 input1-section-7" type="text" placeholder="Your Email">
+  						</div>
+  						<div class="col-6">
+  							<input class="form-control rounded-0 input1-section-7" type="text" placeholder="Your Subjects">
+  						</div>
+  						<div class="col-6">
+  							<input class="form-control rounded-0 input1-section-7" type="tel" placeholder="Your Phone Number">
+  						</div>
+   						<div class="col-12">
+  							<textarea class="form-control texterea-section-7" type="text" rows="5">Description Services Needed</textarea>
+  						</div>
+  						
+  					</div>
+  				</form>
+  					</div>
+  					
+  				
+  				<div class="btn2-section-7">
+  					SUBMIT
+  				</div>
+ 				</div>
+ 			</div>
+ 		</div> 
+ 	</div>
+ </section>
+  <section class="section-8">
+ 	<div class="container">
+ 		<div class="row justify-content-between">
+ 			<div class="col-3 text-center">
+ 				<div class="item-section-8 ">
+ 					<div class="img-section-8"><img src="Vector Smart Object1.png" alt="photo"></div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3 text-center">
+ 				<div class="item-section-8">
+ 					<div class="img-section-8"><img src="Vector Smart Object2.png" alt="photo"></div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3 text-center">
+ 				<div class="item-section-8">
+ 					<div class="img-section-8"><img src="Vector Smart Object3.png" alt="photo"></div>
+ 				</div>
+ 			</div>
+ 			<div class="col-3 text-center">
+ 				<div class="item-section-8">
+ 					<div class="img-section-8"><img src="Vector Smart Object4.png" alt="photo"></div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+ <footer class="footer-top">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-4">
+ 				<div class="title-footer-top">CONTACT US</div>
+ 				<div class="phone-footer-top">
+ 					<img src="phone.png" alt="photo">
+ 					<div>
+ 						<div class="number-phone-footer-top">+12345678596</div>
+ 						<div class="text-footer-top">Support 24/7Weekdays</div>
+ 					</div>
+ 				</div>
+ 				<div class="info-footer-top">
+ 					<img src="location.png" alt="photo">
+ 					<div class="text-footer-top">Auhandy Tower, NewYork, NY 10013,USA</div>
+ 				</div>
+ 				<div class="info-footer-top">
+ 					<img src="email.png" alt="photo">
+ 					<div class="text-footer-top">info@example.com</div>
+ 				</div>
+ 				<div class="info-footer-top">
+ 					<img src="time.png" alt="photo">
+ 					<div class="text-footer-top">Weekdays:09:00am-0600pm</div>
+ 				</div>
+ 			</div>
+ 			<div class=" col-md-4 col-lg-2">
+ 				<div class="title-footer-top">OUR SERVICES</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Electrical</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Plumbing</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Engine Repair</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Repair House</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Home Maintenance</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Wall Paint</div>
+ 				</div>
+ 			</div>
+ 			<div class="col-lg-2 col-md-4">
+ 				<div class="parent-block-footer-top">
+ 					<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Inatallation</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Garden Repairs</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Soil Drilling</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Support24/7</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Inspection House</div>
+ 				</div>
+ 				<div class="service-footer-top">
+ 					<img src="arrow.png" alt="photo">
+ 					<div class="text-footer-top">Remodeling Ceiling</div>
+ 				</div>	
+ 				</div>
+ 			</div>
+ 			<div class="col-lg-4 col-md-12  text-center">
+ 				<div class="img-footer-top">
+ 					<img class="img-fluid" src="Col 3.png" alt="photo">
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </footer>
+ <footer class="footer-bottom">
+ 	<div class="container">
+ 		<div class="row">
+ 			<div class="col-12 text-center">
+ 				<div class="title-footer-bottom">
+ 					Copyright © 2018 <a class="link-footer-bottom" href="#">Auhandy.</a> Get The Theme
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </footer>
+
+ <div>
+ 	<div id="deactivate" class="deactivate" />
+<div class="form-popup" id="myForm" >
+  <form action="#" class="form-container">
+    <label for="name"><b>Имя</b></label>
+    <input class="input-text" type="text" placeholder="Ваше имя" name="name" required>
+  
+    <label for="email"><b>Емейл</b></label>
+    <input class="input-text"  type="email" placeholder="Ваш емейл" name="email" required>
+
+    <label for="phone"><b>Телефон</b></label>
+    <input class="input-text" type="tel" name="phone" id="phone" required
+           pattern="[\+]\d{1}[\s][\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18"
+    >
+    <button type="submit" class="btn1-popup">Отправить</button>
+    <button type="button" class="btn1-popup cancel" onclick="closeForm()">Закрыть</button>
+  </form>
+</div>
+ </div>
+ 
+ <script src="https://unpkg.com/imask"></script>
+
+ <script type="text/javascript">
+ 	  
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+    document.getElementById("deactivate").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+    document.getElementById("deactivate").style.display = "none";
+}
+var element = document.getElementById('phone');
+var maskOptions = {
+    mask: '+7 (000)000-00-00',
+    lazy: false
+} 
+var mask = new IMask(element, maskOptions);
+ </script>
+ 
+
+</body>
+</html>
