@@ -2,4 +2,4 @@
 <p>При клике на кнопку LEARN MORE открывается форма, где необходимо вводить имя, емейл и телефон.<br/>
 Сделал валидацию полей и маску на телефон с помощью js.
 </p>
-<p><a href="https://new-slider.herokuapp.com/index.html" target="_blank">Demo</a></p>
+<p><a href="https://auhandy-layout.herokuapp.com/index.html" target="_blank">Demo</a></p>
